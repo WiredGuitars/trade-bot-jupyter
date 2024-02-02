@@ -1,15 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[28]:
-
 
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
-# In[33]:
 
 
 plt.figure(figsize=(10, 6))
@@ -27,13 +22,11 @@ plt.legend()
 plt.show()
 
 
-# In[34]:
-
 
 print(stock_data.head())
 
 
-# In[36]:
+
 
 
 # Download historical data
